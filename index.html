@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rahul Shingade | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo"><i class="fa-light fa-registered">R"$</i></div>
+    <div class="nav-links" id="navLinks">
+      <a href="#about"><b>About</b></a>
+      <a href="#projects"><b>Projects</b></a>
+      <a href="#skills"><b>Skills</b></a>
+      <a href="#contact"><b>Contact</b></a>
+      <a href="https://drive.google.com/file/d/1Htxi2FpyRj57Da81OTIow19b5OJOLJ1A/view?usp=sharing" target="_blank"><b>Download Resume</b></a>
+    </div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Rahul Shingade</h1>
+    <div class="roles-container">
+  <span class="role">Data Scientist</span>
+  <span class="role">Machine Learning Enthusiast</span>
+  <span class="role">AI Engineer</span>
+  <span class="role">Python Developer</span>
+  <span class="role">Deep Learning Expert</span>
+</div>
+<section class="circular-gallery">
+  <a href="tel:+916361332377" target="_blank">
+    <img src="./Phone.jpg" alt="Image 1">
+  </a>
+  <a href="mailto:rahul10shingade@gmail.com" target="_blank">
+    <img src="./email.jpg" alt="Image 2">
+  </a>
+  <a href="https://github.com/Rahul-shingade" target="_blank">
+    <img src="./git_hub.jpg" alt="Image 3">
+  </a>
+  <a href="https://www.linkedin.com/in/rahul-shingade-7700mnb" target="_blank">
+    <img src="./linkedinlogo.jpg" alt="Image 4">
+  </a>
+  <a href="https://www.instagram.com/rahul_shingade_420/" target="_blank">
+    <img src="./instagram.jpg" alt="Image 4">
+  </a>
+</section>
+</div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-container">
+      <img src="Rahul_Pro.jpg" alt="Rahul Profile" class="profile-img" />
+      <div class="text-container">
+        <h3 class="center">About</h3><br>
+        <p class="quote">“Seeking a role in Machine Learning and Data Science to apply my analytical skills in solving real-world problems, optimizing models, and uncovering insights from data while continuously learning and contributing to data-driven decision-making.
+
+        <p>
+            With nearly two years of industry experience, I’ve tackled data science challenges, optimized ML models, and improved data pipelines. I’m skilled in Python with Flask, OOP, data structures, algorithms, and MySQL. I have hands-on experience in preprocessing, EDA, and statistical modeling, and I’m proficient with tools like Git, VS Code, Jupyter, and MySQL Workbench.
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <!-- Project Section -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card" data-title="Bank Loan Default Risk Analysis" data-description="<b>Role:</b> 
+      Data Analyst & Machine Learning Developer, worked independently.<br>
+<b>Technologies & Tools:</b> Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn.<br>
+<b>Responsibilities:</b>
+<ul>
+  <li>Collected and cleaned loan-related datasets.</li>
+  <li>Performed exploratory data analysis (EDA) to uncover trends and risk patterns.</li>
+  <li>Built and trained ML models (logistic regression, random forests).</li>
+  <li>Evaluated performance using accuracy, precision, recall, and F1-score.</li>
+</ul>
+<b>Objective:</b> Predicted loan default risk using customer demographic, financial, and credit history.<br>
+<b>Outcome:</b> Achieved high accuracy, enabling banks to reduce defaults and manage risks effectively."
+data-link="https://github.com/Rahul-shingade/Bank_Loan_Analysis/blob/master/.ipynb_checkpoints/Bank%20_Loan_Default%20Risk_Analysis-checkpoint.ipynb">
+      <img src="./Bank_Default.jpg" alt="House Price Prediction" />
+      <h3>Bank Loan Default Risk Analysis</h3>
+      <p>Developed and deployed machine learning models to predict bank loan default risk using customer demographic and financial data, achieving high accuracy to support data-driven risk management.</p>
+      <button class="view-more">View More</button>
+    </div>
+    <div class="project-card" data-title="Fraud Detection on Bank Payments" data-description="<b>Role:</b> Data Scientist – Fraud Detection.<br>
+<b>Technologies & Tools:</b> Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn.<br>
+<b>Responsibilities:</b>
+<ul>
+  <li>Collected and cleaned transaction data to identify fraudulent activity patterns.</li>
+  <li>Performed feature engineering to enhance fraud detection signals.</li>
+  <li>Implemented classification algorithms (Random Forest, XGBoost) to detect fraudulent payments.</li>
+  <li>Used undersampling and SMOTE to address class imbalance in training data.</li>
+  <li>Evaluated model performance using precision, recall, F1-score, and ROC-AUC metrics.</li>
+</ul>
+<b>Objective:</b> Developed a machine learning solution to predict and flag potentially fraudulent bank transactions in real time.<br>
+<b>Outcome:</b> Improved fraud detection accuracy and reduced false positives, helping banks minimize financial loss and enhance transaction security.
+"
+    data-link="https://github.com/Rahul-shingade/Chat_Bot/blob/master/Chat_Bot.py">
+      <img src="./fraud_detection.jpg" alt="Sentiment Analysis" />
+      <h3>Fraud Detection on Bank Payments</h3>
+      <p>Built a real-time fraud detection system using machine learning and class imbalance techniques to accurately identify fraudulent transactions and reduce financial risk for banks.</p>
+      <button class="view-more">View More</button>
+    </div>
+    <div class="project-card" data-title="Chatbot for Customer Support. " data-description="<b>Role:</b> Data Analyst & Machine Learning Developer.<br>
+<b>Technologies & Tools:</b> Python, NLP (Natural Language Processing), NLTK, SpaCy, TensorFlow, Flask, Pandas, Scikit-learn.<br>
+<b>Responsibilities:</b>
+<ul>
+  <li>Collected and preprocessed conversational datasets for chatbot training.</li>
+  <li>Developed and trained NLP models for intent classification and response generation.</li>
+  <li>Implemented machine learning algorithms and deep learning techniques to enhance chatbot accuracy.</li>
+  <li>Integrated the chatbot with a web interface using Flask for real-time interactions.</li>
+</ul>
+<b>Objective:</b> Built an AI-powered chatbot capable of handling customer queries efficiently, improving user engagement and response automation.<br>
+<b>Outcome:</b> Developed a highly responsive chatbot that improved customer support efficiency, reduced response time, and enhanced user satisfaction.
+">
+      <img src="./Human_chat.jpeg" alt="Chatbot for Customer Support" />
+      <h3>Chatbot for Customer Support</h3><br>
+      <p>Designed and deployed an AI-powered chatbot using NLP and deep learning, integrated with Flask, to automate customer support and enhance engagement and satisfaction.</p>
+      <button class="view-more">View More</button>
+    </div>
+    <div class="project-card" data-title="LLM Text Intelligence" data-description="<b>Role:</b> NLP Engineer – Large Language Model (LLM) Development.<br>
+<b>Technologies & Tools:</b> Python, Hugging Face Transformers, PyTorch, TensorFlow, BERT/GPT, NLTK, SpaCy, FastAPI.<br>
+<b>Responsibilities:</b>
+<ul>
+  <li>Preprocessed and tokenized large-scale text datasets for LLM fine-tuning.</li>
+  <li>Fine-tuned transformer-based models (BERT, GPT-2) for custom NLP tasks such as text classification, summarization, and question answering.</li>
+  <li>Optimized model training using gradient accumulation, mixed precision, and distributed training strategies.</li>
+  <li>Deployed LLMs using FastAPI for scalable and low-latency inference.</li>
+  <li>Implemented evaluation metrics (BLEU, ROUGE, accuracy) to measure model performance across NLP tasks.</li>
+</ul>
+<b>Objective:</b> Built and deployed a fine-tuned LLM to solve complex NLP problems like summarizing financial reports and answering user queries in natural language.<br>
+<b>Outcome:</b> Achieved high task-specific performance and delivered an API-powered LLM service capable of handling real-time NLP requests with high accuracy.
+">
+      <img src="./GEN_AI.jpg" alt="Image Classification" />
+      <h3>LLM Text Intelligence</h3>
+      <p>Developed and deployed fine-tuned transformer-based LLMs using Hugging Face and FastAPI to solve complex NLP tasks like summarization and question answering with high accuracy and scalability.</p>
+      <button class="view-more">View More</button>
+    </div>
+  </div>
+</section>
+
+<!-- Modal for Project Details -->
+<div id="project-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h3 id="modal-title"></h3>
+    <p id="modal-description"></p>
+    <a id="modal-link" href="#" target="_blank" class="modal-link-btn">Go to Project</a>
+  </div>
+</div>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span>Python</span>
+      <span>Machine Learning</span>
+      <span>Data science</span>
+      <span>Data Analysis</span>
+      <span>EDA</span>
+      <span>Pandas</span>
+      <span>Numoy</span>
+      <span>Tensorflow</span>
+      <span>SQL</span>
+      <span>Deep Learning</span>
+      <span>Data Visualization</span>
+      <span>NLP</span>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="https://formsubmit.co/rahulshingade225@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Rahul Shingade. All rights reserved.</p>
+  </footer>
+</body>
+</html>
