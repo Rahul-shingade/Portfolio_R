@@ -303,7 +303,7 @@ a {
     font-size: 1rem;
   }
 }
-.modal-link-btn {
+/* .modal-link-btn {
   display: inline-block;
   position: relative;
   z-index: 10;
@@ -316,11 +316,11 @@ a {
   transition: background 0.3s ease;
   font-weight: 500;
   text-align: center;
-}
+} */
 
-.modal-link-btn:hover {
+/* .modal-link-btn:hover {
   background-color: #1e40af;
-}
+} */
 
 .modal-description {
   text-align: left !important;
