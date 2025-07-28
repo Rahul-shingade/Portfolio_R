@@ -58,7 +58,7 @@ document.querySelectorAll(".view-more").forEach(button => {
 
     modalTitle.textContent = title;
     modalDescription.innerHTML = descriptionHTML;
-    modalLink.href = link; // ✅ Set the specific project link
+    modalLink.setAttribute("href", link);
     modal.style.display = "flex";
   });
 });
