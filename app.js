@@ -54,11 +54,11 @@ document.querySelectorAll(".view-more").forEach(button => {
     const card = button.closest(".project-card");
     const title = card.getAttribute("data-title");
     const descriptionHTML = card.getAttribute("data-description");
-    const link = card.getAttribute("data-link");
+    // const link = card.getAttribute("data-link");
 
     modalTitle.textContent = title;
     modalDescription.innerHTML = descriptionHTML;
-    modalLink.setAttribute("href", link);
+    // modalLink.setAttribute("href", link);
     modal.style.display = "flex";
   });
 });
